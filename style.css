@@ -397,7 +397,7 @@ ul {
 
 /* Checkbox Toggle cho Mobile Menu (100% thuần CSS) */
 .nav-toggle-checkbox {
-  display: none;
+  display: none !important;
 }
 
 .nav-toggle-label {
