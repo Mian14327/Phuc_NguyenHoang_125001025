@@ -45,23 +45,4 @@ Website được thiết kế hiện đại, chuyên nghiệp, responsive 3 cấ
 └── README.md         # Hướng dẫn dự án và thông tin nộp bài
 ```
 
----
 
-## 🚀 Hướng Dẫn Nộp Bài & Kích Hoạt GitHub Pages
-
-1. **Đặt tên Repository:** Tạo repo trên GitHub theo định dạng: `Ten_Ho_MSSV` (Ví dụ: `Nam_NguyenVan_20110001`).
-2. **Đẩy mã nguồn lên GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Hoàn thiện bài thi giữa kỳ Thiết kế Web - AI Hub"
-   git branch -M main
-   git remote add origin https://github.com/[username]/[Ten_Ho_MSSV].git
-   git push -u origin main
-   ```
-3. **Bật GitHub Pages để có link nộp cho Giảng viên:**
-   - Vào mục **Settings** của repository trên GitHub.
-   - Chọn mục **Pages** ở thanh bên trái.
-   - Tại phần **Branch**, chọn branch `main` và thư mục `/(root)`, sau đó bấm **Save**.
-   - Đợi khoảng 1-2 phút, bạn sẽ nhận được đường link live: `https://[username].github.io/[Ten_Ho_MSSV]/`.
-   - Dán đường link này vào phần **About (Description)** của Repository trên GitHub để Giảng viên chấm điểm.
