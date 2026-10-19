@@ -15,7 +15,7 @@
 
 ---
 
-## 2. Quá trình tinh chỉnh & Giải quyết sự cố (Iteration Steps)
+## 2. Quá trình tinh chỉnh & Giải quyết sự cố (Iteration Iterations)
 
 ### Lần 1: Dựng khung Semantic HTML & Hệ thống CSS Variables cơ bản
 - **Prompt đã dùng:** Prompt 1 (như mục 1 trên).

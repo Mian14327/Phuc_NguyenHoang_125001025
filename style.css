@@ -11,6 +11,8 @@
    -------------------------------------------------------------------------- */
 :root {
   /* Bảng màu chuẩn theo yêu cầu đề bài */
+  --primary-color: #2563EB;       /* Khai báo chuẩn cú pháp đề thi (:root { --primary-color: ...; }) */
+  --secondary-color: #7C3AED;
   --color-dark: #0F172A;          /* Slate 900 - Chữ chính, chân trang, nền đậm */
   --color-primary: #2563EB;       /* Royal Blue - Màu chủ đạo */
   --color-primary-hover: #1D4ED8; /* Blue đậm hơn khi hover */
@@ -155,6 +157,14 @@ ul {
   outline: 3px solid var(--color-primary);
   outline-offset: 3px;
   border-radius: var(--radius-sm);
+}
+
+/* Đảm bảo toàn bộ section và card luôn hiển thị chuẩn thuần CSS (không phụ thuộc JS/AOS) */
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 /* --------------------------------------------------------------------------
