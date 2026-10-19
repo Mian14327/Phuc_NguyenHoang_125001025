@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Hub - Nền tảng tổng hợp, đánh giá và tìm kiếm các công cụ trí tuệ nhân tạo (AI) hàng đầu thế giới. Khám phá các giải pháp AI đột phá phục vụ công việc và học tập.">
+  <meta name="keywords" content="AI Hub, Trí tuệ nhân tạo, công cụ AI, ChatGPT, Midjourney, Claude, GitHub Copilot, LHU">
+  <meta name="author" content="Nguyễn Hoàng Phúc - MSSV: 125001025 - Đại học Lạc Hồng">
+  <title>AI Hub - Nền Tảng Khám Phá Công Cụ AI Đột Phá 2026</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Animate.css (Yêu cầu đề thi: Tiêu đề Hero, Section, Button CTA) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- AOS CSS (Hiệu ứng cuộn CSS theo tiêu chuẩn đề bài) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <!-- File CSS chính của dự án (100% CSS3 thuần, KHÔNG DÙNG JAVASCRIPT) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION (SEMANTIC HEADER + NAV) ==================== -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <!-- Logo thương hiệu cao cấp -->
+      <a href="#hero" class="brand-logo" aria-label="AI Hub Trang chủ">
+        <span class="logo-icon"><i class="fa-solid fa-brain"></i></span>
+        <span class="logo-text">AI<span class="logo-highlight">Hub</span></span>
+        <span class="logo-badge">PRO</span>
+      </a>
+
+      <!-- Menu Hamburger thuần 100% CSS (Checkbox Hack - Không dùng JS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Mở đóng menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <!-- Thanh điều hướng ngữ nghĩa <nav> -->
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Trang chủ</a></li>
+          <li class="nav-item"><a href="#categories" class="nav-link">Danh mục</a></li>
+          <li class="nav-item"><a href="#tools" class="nav-link">Công cụ AI</a></li>
+          <li class="nav-item"><a href="#benefits" class="nav-link">Lợi ích</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">Hỏi đáp</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nút CTA trên Header -->
+      <div class="header-actions">
+        <a href="#tools" class="btn btn-primary btn-header animate__animated animate__pulse animate__infinite">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Khám phá ngay</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT (SEMANTIC MAIN) ==================== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION VỚI HIỆU ỨNG AURORA & FLOATING BADGES -->
+    <section class="hero-section" id="hero">
+      <!-- Các quả cầu phát sáng Aurora nền (Pure CSS Animation) -->
+      <div class="aurora-glow aurora-1" aria-hidden="true"></div>
+      <div class="aurora-glow aurora-2" aria-hidden="true"></div>
+
+      <div class="hero-container">
+        <!-- Floating Badges trang trí công nghệ (Pure CSS Floating) -->
+        <div class="floating-badge badge-left" aria-hidden="true">
+          <i class="fa-solid fa-bolt"></i>
+          <span>GPT-4o & Claude 3.5</span>
+        </div>
+        <div class="floating-badge badge-right" aria-hidden="true">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <span>10x Năng suất 2026</span>
+        </div>
+
+        <!-- Huy hiệu xu hướng -->
+        <div class="hero-badge animate__animated animate__fadeInDown">
+          <span class="badge-dot"></span>
+          <span>Khám phá hơn 100+ Giải pháp Trí Tuệ Nhân Tạo Xu Hướng</span>
+        </div>
+
+        <!-- Tiêu đề Hero với Animate.css & Gradient Text -->
+        <h1 class="hero-title animate__animated animate__fadeInDown">
+          Làm Chủ Tương Lai Với <br>
+          <span class="text-gradient">Kho Tàng Công Cụ AI Đột Phá</span>
+        </h1>
+
+        <!-- Mô tả phụ -->
+        <p class="hero-subtitle animate__animated animate__fadeInUp">
+          Cổng thông tin tổng hợp, phân loại chuyên sâu và đánh giá khách quan các phần mềm Trí tuệ Nhân tạo đỉnh cao thế giới. 
+          Giúp sinh viên và lập trình viên bứt phá năng lực học tập, sáng tạo nội dung và viết code.
+        </p>
+
+        <!-- Thanh tìm kiếm công cụ AI (HTML5 Semantic Form thuần CSS) -->
+        <div class="hero-search-wrapper animate__animated animate__fadeInUp">
+          <form class="search-form" action="#tools" method="get" role="search">
+            <label for="search-input" class="visually-hidden">Tìm kiếm công cụ AI theo từ khóa</label>
+            <div class="search-input-group">
+              <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input 
+                type="search" 
+                id="search-input" 
+                name="q" 
+                class="search-input" 
+                placeholder="Nhập tên công cụ (ChatGPT, Midjourney, Copilot, Claude...)..." 
+                autocomplete="off"
+              >
+            </div>
+            <button type="submit" class="btn btn-gradient btn-search">
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>Tìm kiếm</span>
+            </button>
+          </form>
+
+          <!-- Gợi ý từ khóa tìm kiếm nhanh -->
+          <div class="search-suggestions">
+            <span class="suggestion-label"><i class="fa-regular fa-lightbulb"></i> Gợi ý hot:</span>
+            <a href="#tool-chatgpt" class="suggest-tag">ChatGPT</a>
+            <a href="#tool-midjourney" class="suggest-tag">Vẽ ảnh 3D</a>
+            <a href="#tool-copilot" class="suggest-tag">Hỗ trợ code</a>
+            <a href="#tool-runway" class="suggest-tag">Tạo Video AI</a>
+          </div>
+        </div>
+
+        <!-- Thanh thống kê số liệu uy tín -->
+        <div class="hero-stats animate__animated animate__fadeInUp">
+          <div class="stat-item">
+            <strong class="stat-number">50K+</strong>
+            <span class="stat-label">Lượt truy cập/tháng</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong class="stat-number">100%</strong>
+            <span class="stat-label">Kiểm duyệt kỹ càng</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong class="stat-number">4.9/5</strong>
+            <span class="stat-label">Độ hài lòng cộng đồng</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong class="stat-number">1000+</strong>
+            <span class="stat-label">Mẹo sử dụng Prompt</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DANH MỤC (CATEGORIES - PURE CSS INTERACTIVE CHIPS) -->
+    <section class="categories-section" id="categories">
+      <div class="section-container">
+        <header class="section-header">
+          <span class="section-badge">Bộ Lọc Danh Mục</span>
+          <h2 class="section-title">Khám Phá Theo Nhu Cầu Của Bạn</h2>
+          <p class="section-desc">Phân loại chuyên sâu theo từng lĩnh vực chuyên môn để bạn nhanh chóng tiếp cận công cụ tối ưu.</p>
+        </header>
+
+        <!-- Danh mục điều hướng liên kết ngữ nghĩa nav -->
+        <nav class="category-filters" aria-label="Danh mục công cụ AI">
+          <a href="#tools" class="category-chip active">
+            <span class="chip-icon"><i class="fa-solid fa-border-all"></i></span>
+            <span class="chip-name">Tất cả</span>
+            <span class="chip-count">6</span>
+          </a>
+          <a href="#tool-chatgpt" class="category-chip">
+            <span class="chip-icon"><i class="fa-solid fa-pen-nib"></i></span>
+            <span class="chip-name">Văn bản & Trợ lý</span>
+            <span class="chip-count">2</span>
+          </a>
+          <a href="#tool-midjourney" class="category-chip">
+            <span class="chip-icon"><i class="fa-solid fa-palette"></i></span>
+            <span class="chip-name">Hình ảnh & Thiết kế</span>
+            <span class="chip-count">1</span>
+          </a>
+          <a href="#tool-copilot" class="category-chip">
+            <span class="chip-icon"><i class="fa-solid fa-code"></i></span>
+            <span class="chip-name">Lập trình & Kỹ thuật</span>
+            <span class="chip-count">1</span>
+          </a>
+          <a href="#tool-runway" class="category-chip">
+            <span class="chip-icon"><i class="fa-solid fa-film"></i></span>
+            <span class="chip-name">Video & Âm thanh</span>
+            <span class="chip-count">1</span>
+          </a>
+          <a href="#tool-perplexity" class="category-chip">
+            <span class="chip-icon"><i class="fa-solid fa-book-bookmark"></i></span>
+            <span class="chip-name">Nghiên cứu & Học tập</span>
+            <span class="chip-count">1</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- SECTION LƯỚI 6 CÔNG CỤ AI (CSS GRID & ARTICLE NÂNG CẤP) -->
+    <section class="tools-section" id="tools">
+      <div class="section-container">
+        <header class="section-header-flex">
+          <div>
+            <span class="section-badge">Bộ Sưu Tập Tuyển Chọn</span>
+            <h2 class="section-title">Danh Sách Công Cụ AI Tiêu Biểu</h2>
+          </div>
+          <div class="tools-counter">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Đang giới thiệu: <strong class="count-highlight">6</strong> công cụ đột phá</span>
+          </div>
+        </header>
+
+        <!-- Lưới 6 công cụ AI sử dụng CSS Grid và thẻ ngữ nghĩa article -->
+        <div class="tools-grid">
+
+          <!-- TOOL 1: ChatGPT -->
+          <article class="tool-card" id="tool-chatgpt">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-emerald">
+                <i class="fa-solid fa-comment-dots"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-freemium">Miễn phí / Plus</span>
+                <!-- Nút Bookmark yêu thích tương tác thuần CSS -->
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu ChatGPT">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.9 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-val">4.9 (1.5M+ lượt dùng)</span>
+              </div>
+              <h3 class="card-title">ChatGPT</h3>
+              <p class="card-desc">
+                Siêu chatbot AI của OpenAI hỗ trợ trò chuyện, viết văn bản, tóm tắt tài liệu, giải toán và tư duy logic thông minh với kiến trúc GPT-4o.
+              </p>
+              
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Xử lý đa phương thức (Ảnh, Văn bản, Giọng nói)</li>
+                <li><i class="fa-solid fa-circle-check"></i> Hỗ trợ tiếng Việt trôi chảy & tự nhiên</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-robot"></i> Chatbot</span>
+                <span class="tag"><i class="fa-solid fa-pen"></i> Viết lách</span>
+                <span class="tag">OpenAI</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+          <!-- TOOL 2: Midjourney -->
+          <article class="tool-card" id="tool-midjourney">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-indigo">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-paid">Trả phí</span>
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu Midjourney">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.8 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span class="rating-val">4.8 (850K+ nghệ sĩ)</span>
+              </div>
+              <h3 class="card-title">Midjourney</h3>
+              <p class="card-desc">
+                Công cụ tạo hình ảnh từ văn bản (Text-to-Image) với chất lượng thị giác chân thực, phong cách nghệ thuật tinh xảo vượt bậc.
+              </p>
+
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Chi tiết hình ảnh siêu thực chuẩn 8K</li>
+                <li><i class="fa-solid fa-circle-check"></i> Đa dạng phong cách Anime, 3D, Cyberpunk</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-image"></i> Tạo ảnh</span>
+                <span class="tag"><i class="fa-solid fa-brush"></i> Art AI</span>
+                <span class="tag">Discord</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://www.midjourney.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+          <!-- TOOL 3: GitHub Copilot -->
+          <article class="tool-card" id="tool-copilot">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-dark">
+                <i class="fa-solid fa-terminal"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-paid">Dùng thử / Trả phí</span>
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu GitHub Copilot">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.9 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-val">4.9 (1.2M+ Lập trình viên)</span>
+              </div>
+              <h3 class="card-title">GitHub Copilot</h3>
+              <p class="card-desc">
+                Trợ lý lập trình AI tích hợp trực tiếp vào VS Code, gợi ý mã nguồn thông minh từng dòng, tự động hoàn thiện hàm và giải thích code.
+              </p>
+
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Tích hợp mượt mà trong Visual Studio Code</li>
+                <li><i class="fa-solid fa-circle-check"></i> Hỗ trợ hơn 30+ ngôn ngữ lập trình phổ biến</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-code"></i> Lập trình</span>
+                <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                <span class="tag">VS Code</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+          <!-- TOOL 4: Claude -->
+          <article class="tool-card" id="tool-claude">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-amber">
+                <i class="fa-solid fa-feather-pointed"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-freemium">Miễn phí / Pro</span>
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu Claude">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.9 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-val">4.9 (700K+ chuyên gia)</span>
+              </div>
+              <h3 class="card-title">Claude</h3>
+              <p class="card-desc">
+                Mô hình AI đỉnh cao từ Anthropic (Claude 3.5 Sonnet) với khả năng phân tích ngữ cảnh dài, viết văn phong tự nhiên và tư duy logic xuất chúng.
+              </p>
+
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Cửa sổ ngữ cảnh khổng lồ 200K tokens</li>
+                <li><i class="fa-solid fa-circle-check"></i> Tính năng Artifacts tương tác trực tiếp</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-brain"></i> Anthropic</span>
+                <span class="tag"><i class="fa-solid fa-chart-pie"></i> Logic</span>
+                <span class="tag">Sonnet</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+          <!-- TOOL 5: Runway Gen-3 -->
+          <article class="tool-card" id="tool-runway">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-purple">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-freemium">Miễn phí / Credits</span>
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu Runway">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.7 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span class="rating-val">4.7 (420K+ nhà làm phim)</span>
+              </div>
+              <h3 class="card-title">Runway Gen-3</h3>
+              <p class="card-desc">
+                Nền tảng tạo và biên tập video điện ảnh chuẩn Hollywood từ văn bản hoặc hình ảnh, dẫn đầu thế giới trong công nghệ Video Generative AI.
+              </p>
+
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Chuyển động máy quay mượt mà góc rộng</li>
+                <li><i class="fa-solid fa-circle-check"></i> Tạo hiệu ứng Slow-motion & Cinematic</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-film"></i> Tạo Video</span>
+                <span class="tag"><i class="fa-solid fa-clapperboard"></i> Điện ảnh</span>
+                <span class="tag">Gen-3</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://runwayml.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+          <!-- TOOL 6: Perplexity AI -->
+          <article class="tool-card" id="tool-perplexity">
+            <div class="card-glow"></div>
+            <header class="card-header">
+              <div class="card-logo-wrap bg-cyan">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </div>
+              <div class="card-header-meta">
+                <span class="badge badge-freemium">Miễn phí / Pro</span>
+                <label class="bookmark-toggle" title="Lưu vào danh sách yêu thích">
+                  <input type="checkbox" aria-label="Lưu Perplexity">
+                  <i class="fa-regular fa-bookmark icon-unmarked"></i>
+                  <i class="fa-solid fa-bookmark icon-marked"></i>
+                </label>
+              </div>
+            </header>
+            <div class="card-body">
+              <div class="card-rating">
+                <div class="stars" aria-label="Đánh giá 4.8 trên 5 sao">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rating-val">4.8 (650K+ nhà nghiên cứu)</span>
+              </div>
+              <h3 class="card-title">Perplexity AI</h3>
+              <p class="card-desc">
+                Công cụ tìm kiếm thông minh kết hợp AI, tổng hợp câu trả lời tức thì kèm dẫn nguồn học thuật chuẩn xác, không quảng cáo rác.
+              </p>
+
+              <!-- Danh sách tính năng nổi bật -->
+              <ul class="card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Trích dẫn liên kết nguồn đáng tin cậy 100%</li>
+                <li><i class="fa-solid fa-circle-check"></i> Chế độ Pro Search phân tích chuyên sâu</li>
+              </ul>
+
+              <div class="card-tags">
+                <span class="tag"><i class="fa-solid fa-globe"></i> Tìm kiếm</span>
+                <span class="tag"><i class="fa-solid fa-book"></i> Tra cứu</span>
+                <span class="tag">Trích nguồn</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer" class="btn btn-outline card-btn">
+                <span>Dùng thử ngay</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION LỢI ÍCH (BENEFITS - BENTO GRID HIỆN ĐẠI) -->
+    <section class="benefits-section" id="benefits">
+      <div class="section-container">
+        <header class="section-header">
+          <span class="section-badge">Giá Trị Cốt Lõi</span>
+          <h2 class="section-title">Tại Sao Nên Đồng Hành Cùng AI Hub?</h2>
+          <p class="section-desc">Chúng tôi mang lại giải pháp toàn diện giúp bạn đón đầu làn sóng công nghệ 4.0 một cách hiệu quả nhất.</p>
+        </header>
+
+        <div class="benefits-grid">
+          <!-- Lợi ích 1 -->
+          <article class="benefit-card">
+            <span class="card-watermark" aria-hidden="true">01</span>
+            <div class="benefit-icon bg-blue-subtle">
+              <i class="fa-solid fa-stopwatch"></i>
+            </div>
+            <h3 class="benefit-title">Tiết Kiệm 80% Thời Gian</h3>
+            <p class="benefit-desc">
+              Không còn tốn hàng giờ thử nghiệm phần mềm rời rạc. AI Hub tổng hợp các lựa chọn tốt nhất với mô tả và hướng dẫn chi tiết.
+            </p>
+          </article>
+
+          <!-- Lợi ích 2 -->
+          <article class="benefit-card">
+            <span class="card-watermark" aria-hidden="true">02</span>
+            <div class="benefit-icon bg-purple-subtle">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="benefit-title">Đánh Giá Trung Thực</h3>
+            <p class="benefit-desc">
+              Mọi công cụ đều được phân tích ưu, nhược điểm, chi phí và mức độ tiện dụng dựa trên trải nghiệm thực tế từ cộng đồng.
+            </p>
+          </article>
+
+          <!-- Lợi ích 3 -->
+          <article class="benefit-card">
+            <span class="card-watermark" aria-hidden="true">03</span>
+            <div class="benefit-icon bg-emerald-subtle">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <h3 class="benefit-title">Cập Nhật Liên Tục</h3>
+            <p class="benefit-desc">
+              Thế giới AI phát triển từng ngày. Chúng tôi liên tục rà soát, kiểm thử và bổ sung các mô hình mới nhất theo xu hướng toàn cầu.
+            </p>
+          </article>
+
+          <!-- Lợi ích 4 -->
+          <article class="benefit-card">
+            <span class="card-watermark" aria-hidden="true">04</span>
+            <div class="benefit-icon bg-amber-subtle">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3 class="benefit-title">Tăng Trưởng Hiệu Suất</h3>
+            <p class="benefit-desc">
+              Tích hợp đúng công cụ vào quy trình giúp học sinh, sinh viên và doanh nghiệp tối ưu chi phí và tăng tốc độ hoàn thành công việc.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION FAQ - CÂU HỎI THƯỜNG GẶP (SEMANTIC HTML5 DETAILS & SUMMARY - 100% PURE CSS) -->
+    <section class="faq-section" id="faq">
+      <div class="section-container">
+        <header class="section-header">
+          <span class="section-badge">Giải Đáp Thắc Mắc</span>
+          <h2 class="section-title">Câu Hỏi Thường Gặp Về AI</h2>
+          <p class="section-desc">Những câu hỏi phổ biến nhất của sinh viên và người mới bắt đầu làm quen với Trí tuệ Nhân tạo.</p>
+        </header>
+
+        <div class="faq-accordion-wrap">
+          <!-- FAQ 1 -->
+          <details class="faq-item" open>
+            <summary class="faq-summary">
+              <span class="faq-question"><i class="fa-solid fa-circle-question"></i> Sinh viên có được dùng các công cụ AI này miễn phí không?</span>
+              <span class="faq-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Hầu hết các công cụ như <strong>ChatGPT</strong>, <strong>Claude</strong>, <strong>Perplexity AI</strong> đều có gói trải nghiệm hoàn toàn miễn phí đáp ứng tốt nhu cầu học tập. Ngoài ra, GitHub cung cấp gói <strong>GitHub Student Developer Pack</strong> cho phép sinh viên sử dụng GitHub Copilot miễn phí 100% khi xác thực email trường LHU (.edu.vn).</p>
+            </div>
+          </details>
+
+          <!-- FAQ 2 -->
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span class="faq-question"><i class="fa-solid fa-circle-question"></i> Công cụ nào hỗ trợ học lập trình và viết code tốt nhất hiện nay?</span>
+              <span class="faq-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Hai sự lựa chọn hàng đầu hiện nay là <strong>GitHub Copilot</strong> (tự động gợi ý code ngay trong VS Code) và <strong>Claude 3.5 Sonnet</strong> (giỏi phân tích thuật toán, giải thích bug và tái cấu trúc mã nguồn một cách chi tiết).</p>
+            </div>
+          </details>
+
+          <!-- FAQ 3 -->
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span class="faq-question"><i class="fa-solid fa-circle-question"></i> Vibe Coding là gì và tại sao lại trở thành xu hướng mới?</span>
+              <span class="faq-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+            </summary>
+            <div class="faq-answer">
+              <p><strong>Vibe Coding</strong> là phong cách lập trình hiện đại, nơi lập trình viên đóng vai trò là "kiến trúc sư" chỉ đạo, mô tả ý tưởng và định hướng cho AI sinh mã nguồn, sau đó kiểm tra và tinh chỉnh lại. Điều này giúp nâng cao tốc độ phát triển phần mềm lên gấp 5-10 lần mà vẫn đảm bảo tính chính xác.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION COMMUNITY CALL TO ACTION BANNER (GLASSMORPHISM CALLOUT) -->
+    <section class="cta-banner-section">
+      <div class="section-container">
+        <div class="cta-banner-card">
+          <div class="cta-banner-content">
+            <span class="cta-badge"><i class="fa-solid fa-sparkles"></i> Tham Gia Cộng Đồng AI Hub</span>
+            <h2 class="cta-title">Sẵn Sàng Dẫn Đầu Kỷ Nguyên Trí Tuệ Nhân Tạo?</h2>
+            <p class="cta-desc">Đồng hành cùng hàng ngàn sinh viên Đại học Lạc Hồng khám phá và ứng dụng AI vào học tập hiệu quả mỗi ngày.</p>
+            <div class="cta-buttons">
+              <a href="#tools" class="btn btn-gradient btn-cta-large">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Trải nghiệm ngay bây giờ</span>
+              </a>
+              <a href="#categories" class="btn btn-outline btn-cta-white">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Xem danh mục</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER (SEMANTIC FOOTER) ==================== -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Cột thông tin thương hiệu -->
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="AI Hub Trang chủ">
+            <span class="logo-icon"><i class="fa-solid fa-brain"></i></span>
+            <span class="logo-text">AI<span class="logo-highlight">Hub</span></span>
+          </a>
+          <p class="footer-tagline">
+            Cổng thông tin và thư viện công cụ Trí tuệ Nhân tạo toàn diện. Bài thi giữa kỳ học phần Thiết kế Web - Khoa Công nghệ Thông tin, Đại học Lạc Hồng.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="social-link" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+          </div>
+        </div>
+
+        <!-- Cột liên kết nhanh -->
+        <nav class="footer-nav" aria-label="Liên kết chân trang">
+          <h4 class="footer-heading">Liên Kết Nhanh</h4>
+          <ul class="footer-list">
+            <li><a href="#hero" class="footer-link">Trang chủ</a></li>
+            <li><a href="#categories" class="footer-link">Danh mục AI</a></li>
+            <li><a href="#tools" class="footer-link">Công cụ nổi bật</a></li>
+            <li><a href="#benefits" class="footer-link">Lợi ích sử dụng</a></li>
+            <li><a href="#faq" class="footer-link">Câu hỏi thường gặp</a></li>
+          </ul>
+        </nav>
+
+        <!-- Cột nhóm công cụ hot -->
+        <div class="footer-group">
+          <h4 class="footer-heading">Chuyên Mục Hot</h4>
+          <ul class="footer-list">
+            <li><a href="#tool-chatgpt" class="footer-link">AI Tạo Văn Bản</a></li>
+            <li><a href="#tool-midjourney" class="footer-link">AI Vẽ Tranh & Đồ Họa</a></li>
+            <li><a href="#tool-copilot" class="footer-link">AI Trợ Lý Lập Trình</a></li>
+            <li><a href="#tool-runway" class="footer-link">AI Tạo Video & Âm Thanh</a></li>
+            <li><a href="#tool-perplexity" class="footer-link">AI Nghiên Cứu & Tra Cứu</a></li>
+          </ul>
+        </div>
+
+        <!-- Cột thông tin liên hệ sinh viên -->
+        <div class="footer-contact">
+          <h4 class="footer-heading">Thông Tin Bài Thi</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fa-solid fa-graduation-cap"></i> <span>Trường Đại học Lạc Hồng (LHU)</span></li>
+            <li><i class="fa-solid fa-laptop-code"></i> <span>Khoa Công Nghệ Thông Tin</span></li>
+            <li><i class="fa-solid fa-book"></i> <span>Môn: Thiết Kế Web (Giữa Kỳ)</span></li>
+            <li><i class="fa-solid fa-code-commit"></i> <span>Hình thức: Vibe Coding với AI</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bản quyền và thông tin tác giả -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 AI Hub. Sản phẩm thực hiện phục vụ bài thi giữa kỳ môn Thiết kế Web.
+        </p>
+        <p class="footer-author">
+          Sinh viên thực hiện: Nguyễn Hoàng Phúc - MSSV: 125001025
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Nút bấm quay lên đầu trang (100% Thuần CSS) -->
+  <a href="#header" class="back-to-top" title="Cuộn lên đầu trang" aria-label="Cuộn lên đầu trang">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+</body>
+</html>
